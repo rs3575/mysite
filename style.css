@@ -1,3 +1,68 @@
+body {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+     text-decoration: none;
+}
+
 h1{
-	color: pink;
+	color: rgb(255, 0, 0);
+	 text-decoration: none;
+}
+
+.header{
+	background-color: rgb(255, 0, 131);
+	color: white;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    height: 500px;
+
+    text-align: center;
+    text-decoration: none;
+/*visited link{*/
+	a: visited;
+    color: white;
+
+}
+
+.header img{
+	width: 500px;
+	 text-decoration: none;
+}
+
+.menu{
+	display: flex;
+	text-align: center;
+	    width: 534px;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+.menu li{
+	width: 100px;
+	text-align: center;
+	list-style-type: none;
+	padding-right: 50;
+	text-decoration: none;
+	margin-top: 20px; 
+}
+
+.first-box{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+center{
+
+}
+
+.margin{
+	margin-top: 200px;
+}
+
+#margin2{
+	margin-top: 50px;
 }
